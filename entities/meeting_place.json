@@ -1,0 +1,9 @@
+{
+  "id": "e0bd0aaf-e22b-4b66-9892-2e0a3597de34",
+  "name": "meeting_place",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,262 @@
+[
+  {
+    "id": "750e2f19-df51-468e-8015-57964626472f",
+    "data": [
+      {
+        "text": "오늘",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "1시",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      },
+      {
+        "text": "에 ",
+        "userDefined": false
+      },
+      {
+        "text": "대회의실",
+        "alias": "meeting_place",
+        "meta": "@meeting_place",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "명 새 회의",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6d3ca9bd-2e1f-47ea-8f57-a406de62e9d3",
+    "data": [
+      {
+        "text": "이번주 목요일",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "오후 3시",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      },
+      {
+        "text": "에 ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "명 ",
+        "userDefined": false
+      },
+      {
+        "text": "룸B",
+        "alias": "meeting_place",
+        "meta": "@meeting_place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cdb6782b-72ec-465a-be36-cb7ee960999e",
+    "data": [
+      {
+        "text": "내일",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "오후 5시",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": true
+      },
+      {
+        "text": "에 회의",
+        "userDefined": false
+      },
+      {
+        "text": "룸A",
+        "alias": "meeting_place",
+        "meta": "@meeting_place",
+        "userDefined": false
+      },
+      {
+        "text": "에 ",
+        "userDefined": false
+      },
+      {
+        "text": "5명",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " 회의 잡을게요",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c7a9966a-e6a8-41be-a8f8-29c437ae2b4d",
+    "data": [
+      {
+        "text": "회의 만들게",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "054b5d95-bf6e-4ffb-a4dc-89ca6108c672",
+    "data": [
+      {
+        "text": "미팅 만들게",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "caf87647-7109-4e71-86db-57afeee1bc9e",
+    "data": [
+      {
+        "text": "회의 잡기",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "738d982c-d798-4f26-b789-ecd92fc72074",
+    "data": [
+      {
+        "text": "회의 만들기",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2f70e810-6618-45db-9998-7ef41e9f5e37",
+    "data": [
+      {
+        "text": "미팅 만들기",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "125a20f6-1b3c-4853-aecc-2ee80b15664b",
+    "data": [
+      {
+        "text": "미팅 잡기",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "93d80307-5765-44e8-a184-357b2b9b3364",
+    "data": [
+      {
+        "text": "새 회의",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c67c3045-76de-4fa3-8c80-47596d4d5e85",
+    "data": [
+      {
+        "text": "회의 잡아줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a4bca1ba-788c-4358-bc6c-1f0e8dc840e1",
+    "data": [
+      {
+        "text": "새 미팅",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "74243d5d-f576-4b7b-98d8-bc431377deac",
+    "data": [
+      {
+        "text": "미팅 잡아줘",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

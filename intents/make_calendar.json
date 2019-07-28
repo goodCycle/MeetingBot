@@ -1,0 +1,61 @@
+{
+  "id": "7897a528-f8da-4816-a2df-a46689e14d67",
+  "parentId": "a15ab724-c63e-44bc-930e-bb2e1801c6d7",
+  "rootParentId": "a15ab724-c63e-44bc-930e-bb2e1801c6d7",
+  "name": "make_calendar",
+  "auto": true,
+  "contexts": [
+    "new_meeting-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "make_calendar",
+      "affectedContexts": [
+        {
+          "name": "new_meeting",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8b38034e-65e4-48f9-9585-61cb7f4e0873",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "#new_meeting.date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        },
+        {
+          "id": "2fe5394c-e5be-4365-8bf9-e5efc8d76223",
+          "required": false,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "#new_meeting.time",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ko",
+          "speech": "감사합니다"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

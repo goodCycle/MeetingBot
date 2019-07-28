@@ -1,0 +1,103 @@
+{
+  "id": "a15ab724-c63e-44bc-930e-bb2e1801c6d7",
+  "name": "new_meeting",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "new_meeting",
+      "affectedContexts": [
+        {
+          "name": "new_meeting-followup",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "25723d0b-7964-47ec-8015-62e484ed5c3e",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "몇 명이 참여하는 회의입니까?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        },
+        {
+          "id": "347f6b78-7306-4564-9288-2fa9d3a7a312",
+          "required": true,
+          "dataType": "@meeting_place",
+          "name": "meeting_place",
+          "value": "$meeting_place",
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "회의 장소를 선택해주세요  대회의실/ 회의실A / 회의실B / 회의실C"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        },
+        {
+          "id": "0b3f82e4-0a94-4035-9a3d-95b62b3555d2",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "회의 날짜는 언제인가요?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        },
+        {
+          "id": "c3c65dd3-a074-407b-9aff-a9c22cef8363",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "ko",
+              "value": "회의 시간은 언제인가요?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ko",
+          "speech": "요청하신 #new_meeting-followup.number 명, #new_meeting-followup.meeting_place 에서 #new_meeting-followup.date #new_meeting-followup.time으로 회의실을 예약하도록 하겠습니다. 구글 캘린더에도 등록할까요?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}
